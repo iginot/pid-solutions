@@ -1,0 +1,29 @@
+main.aux
+# These are all the log-files
+exercise3/*.log
+# This is all the latex files 
+**/*.tex
+# This is .out 
+**/*.out
+
+# This is the word files 
+*.docx
+
+# throwaway playground folder
+scratch/
+
+# only keep example-member-list.json in member-lists folder
+member-lists/*
+!member-lists/example-member-list.json
+
+# attendance-sheets out folder
+attendance-sheets/
+
+# gradle
+build/
+.gradle
+
+#Intellij
+.idea/
+*iml
+
